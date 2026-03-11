@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVS Punni Harvester | Jaora Official</title>
+    <style>
+        :root {
+            --light-blue: #e3f2fd;
+            --punni-blue: #0d47a1;
+            --bright-green: #2ecc71;
+            --action-orange: #ff9800;
+            --white: #ffffff;
+        }
+
+        body, html { margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; scroll-behavior: smooth; }
+
+        /* FRONT PAGE - USING YOUR PROVIDED IMAGE 1000191812.png */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                        url('1000191812.png'); 
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--white);
+            padding: 20px;
+        }
+
+        .hero img.logo { width: 150px; margin-bottom: 20px; border-radius: 15px; }
+        .hero h1 { font-size: 4.5rem; margin: 0; font-weight: 900; text-transform: uppercase; }
+        .hero p { font-size: 1.8rem; margin: 10px 0 40px; letter-spacing: 2px; }
+
+        /* BUTTONS */
+        .btn-container { display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 320px; }
+        .btn { padding: 18px; border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 1.3rem; display: flex; align-items: center; justify-content: center; transition: 0.3s; }
+        .btn-whatsapp { background-color: var(--bright-green); color: white; }
+        .btn-call { background-color: var(--white); color: var(--punni-blue); }
+
+        /* CONTENT SECTIONS */
+        .section { padding: 80px 20px; max-width: 1200px; margin: 0 auto; text-align: center; }
+        h2 { font-size: 3rem; color: var(--punni-blue); margin-bottom: 40px; font-weight: 800; }
+
+        /* SPECIFICATIONS GRID */
+        .specs-container { background-color: var(--light-blue); padding: 80px 0; }
+        .specs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .spec-card { 
+            background: var(--white); 
+            padding: 30px; 
+            border-radius: 20px; 
+            border-bottom: 8px solid var(--punni-blue);
+            text-align: left;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        .spec-card h3 { color: var(--punni-blue); font-size: 1.8rem; margin-top: 0; }
+        .spec-card ul { list-style: none; padding: 0; }
+        .spec-card li { margin-bottom: 12px; font-size: 1.1rem; color: #444; }
+        .spec-card b { color: var(--action-orange); }
+
+        /* REPAIR SECTION */
+        .repair-card { 
+            background: var(--white); 
+            border: 2px solid var(--action-orange); 
+            padding: 40px; 
+            border-radius: 30px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            flex-wrap: wrap; 
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .repair-text { text-align: left; flex: 1; }
+        .repair-btn { background: var(--action-orange); color: white; padding: 20px 40px; text-decoration: none; font-weight: 800; font-size: 1.4rem; border-radius: 15px; }
+
+        footer { background: #f8f9fa; padding: 60px 20px; text-align: center; border-top: 1px solid #ddd; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            h2 { font-size: 2.2rem; }
+            .repair-card { text-align: center; justify-content: center; }
+            .repair-text { text-align: center; margin-bottom: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <img src="1000191655.jpg" alt="AVS Logo" class="logo">
+        <h1>AVS PUNNI JAORA</h1>
+        <p>Arjun • Vishal • Sachin</p>
+        <div class="btn-container">
+            <a href="https://wa.me/918225832618" class="btn btn-whatsapp">WhatsApp Inquiry</a>
+            <a href="tel:8225832618" class="btn btn-call">Call Sales</a>
+        </div>
+    </header>
+
+    <div class="specs-container">
+        <section class="section">
+            <h2>Authorized Punni Range</h2>
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <h3>Grain Cruiser Prime</h3>
+                    <ul>
+                        <li>⚡ <b>133 HP</b> Peak Power</li>
+                        <li>⚡ <b>101-133 HP</b> Operating Engine</li>
+                        <li>⚡ <b>Bhusa Maker</b> Dual Mode</li>
+                        <li>⚡ High Revenue Straw Production</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h3>777 Legend</h3>
+                    <ul>
+                        <li>⚡ <b>160 HP</b> Heavy Duty Engine</li>
+                        <li>⚡ <b>14-Foot</b> Wide Cutter Bar</li>
+                        <li>⚡ <b>Multi-Crop</b> Specialization</li>
+                        <li>⚡ Fastest Field Coverage</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h3>313 Mini</h3>
+                    <ul>
+                        <li>⚡ <b>76 - 101 HP</b> Efficiency</li>
+                        <li>⚡ Compact for Narrow Fields</li>
+                        <li>⚡ Low Maintenance Cost</li>
+                        <li>⚡ Best for Small & Medium Farms</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="section">
+        <div class="repair-card">
+            <div class="repair-text">
+                <h3 style="color: var(--action-orange); font-size: 2rem; margin: 0;">Genuine Repairing & Spares</h3>
+                <p>100% Original Punni Belts, Blades, and Engine Parts available 24/7.</p>
+            </div>
+            <a href="tel:8458897498" class="repair-btn">Call Vishal: 8458897498</a>
+        </div>
+    </section>
+
+    <footer>
+        <div style="font-size: 1.5rem; font-weight: 800; color: var(--punni-blue);">ARJUN • VISHAL • SACHIN</div>
+        <p>Mhow - Neemuch Rd, Fatak, Jaora, MP 457226</p>
+        <p style="color: #aaa; margin-top: 20px;">© 2026 AVS Punni Harvester. All Rights Reserved.</p>
+    </footer>
+
+</body>
+  </html>
+  
